@@ -23,6 +23,9 @@ public class Product {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name = "uuid")
+    private Integer uuid;
+
     @Column(name = "productName", nullable = false)
     private String productName;
 
