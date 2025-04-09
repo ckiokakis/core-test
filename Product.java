@@ -50,4 +50,6 @@ public class Product {
 
     @Column(name = "url")
     private String url;
+
+    // ----------------------------- OTHER ATTRIBUTES -----------------------------
 }
