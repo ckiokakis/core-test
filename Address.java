@@ -46,4 +46,7 @@ public class Address {
     @ManyToOne
     @JoinColumn(name = "company_id", referencedColumnName = "id")
     private Company company;
+
+    @Column(name = "new_attr")
+    private String new_attr;
 }
